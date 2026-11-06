@@ -1,0 +1,6 @@
+{
+  "name": "Church of Royals International Ministry",
+  "description": "Dynamic royal Christian news magazine, global church directory, Royals TV broadcast, Free Will donation system, and Royal Ambassador network. Slogan: You Are A Property of God.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

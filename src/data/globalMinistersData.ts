@@ -1,0 +1,135 @@
+export interface GlobalMinister {
+  id: string;
+  name: string;
+  title: string;
+  churchName: string;
+  country: string;
+  city: string;
+  imageUrl: string;
+  socialUrl: string;
+  socialPlatform: 'YouTube' | 'Facebook' | 'Instagram' | 'Website';
+}
+
+export const globalMinistersData: GlobalMinister[] = [
+  {
+    id: 'min-1',
+    name: 'Bishop T.D. Jakes',
+    title: 'Bishop & Senior Pastor',
+    churchName: 'The Potter’s House of Dallas',
+    city: 'Dallas, Texas',
+    country: 'United States',
+    imageUrl: 'https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=600&q=80',
+    socialUrl: 'https://www.youtube.com/@BishopTDJakes',
+    socialPlatform: 'YouTube',
+  },
+  {
+    id: 'min-2',
+    name: 'Pastor Mensa Otabil',
+    title: 'General Overseer & Chancellor',
+    churchName: 'International Central Gospel Church (ICGC)',
+    city: 'Accra',
+    country: 'Ghana',
+    imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80',
+    socialUrl: 'https://www.facebook.com/MensaOtabilOfficial/',
+    socialPlatform: 'Facebook',
+  },
+  {
+    id: 'min-3',
+    name: 'Pastor E. A. Adeboye',
+    title: 'General Overseer',
+    churchName: 'The Redeemed Christian Church of God (RCCG)',
+    city: 'Lagos',
+    country: 'Nigeria',
+    imageUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80',
+    socialUrl: 'https://www.youtube.com/@rccglive',
+    socialPlatform: 'YouTube',
+  },
+  {
+    id: 'min-4',
+    name: 'Bishop Charles Agyinasare',
+    title: 'Presiding Bishop & Founder',
+    churchName: 'Perez Chapel International',
+    city: 'Accra',
+    country: 'Ghana',
+    imageUrl: 'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=600&q=80',
+    socialUrl: 'https://www.facebook.com/charles.agyinasare/',
+    socialPlatform: 'Facebook',
+  },
+  {
+    id: 'min-5',
+    name: 'Bishop David Oyedepo',
+    title: 'Presiding Bishop & Chancellor',
+    churchName: 'Living Faith Church Worldwide (Winners Chapel)',
+    city: 'Ota, Ogun State',
+    country: 'Nigeria',
+    imageUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80',
+    socialUrl: 'https://www.youtube.com/@DOMCOnlineChannel',
+    socialPlatform: 'YouTube',
+  },
+  {
+    id: 'min-6',
+    name: 'Archbishop Nicholas Duncan-Williams',
+    title: 'Archbishop & Presiding Prelate',
+    churchName: 'Action Chapel International (ACI)',
+    city: 'Accra',
+    country: 'Ghana',
+    imageUrl: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80',
+    socialUrl: 'https://www.facebook.com/archbishopduncanwilliams/',
+    socialPlatform: 'Facebook',
+  },
+  {
+    id: 'min-7',
+    name: 'Pastor Matthew Ashimolowo',
+    title: 'Senior Pastor',
+    churchName: 'Kingsway International Christian Centre (KICC)',
+    city: 'London',
+    country: 'United Kingdom',
+    imageUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80',
+    socialUrl: 'https://www.youtube.com/@KICCOnline',
+    socialPlatform: 'YouTube',
+  },
+  {
+    id: 'min-8',
+    name: 'Pastor Chris Oyakhilome',
+    title: 'President & Senior Pastor',
+    churchName: 'LoveWorld Inc. / Christ Embassy',
+    city: 'Lagos',
+    country: 'Nigeria',
+    imageUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80',
+    socialUrl: 'https://loveworldnews.org',
+    socialPlatform: 'Website',
+  },
+  {
+    id: 'min-9',
+    name: 'Dr. Pastor Paul Enenche',
+    title: 'Senior Pastor',
+    churchName: 'Dunamis International Gospel Centre (Glory Dome)',
+    city: 'Abuja',
+    country: 'Nigeria',
+    imageUrl: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=600&q=80',
+    socialUrl: 'https://www.youtube.com/@DunamisTVOnline',
+    socialPlatform: 'YouTube',
+  },
+  {
+    id: 'min-10',
+    name: 'Bishop Dag Heward-Mills',
+    title: 'Evangelist & Presiding Bishop',
+    churchName: 'United Denominations Originating from the Lighthouse Group',
+    city: 'Accra',
+    country: 'Ghana',
+    imageUrl: 'https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=600&q=80',
+    socialUrl: 'https://www.youtube.com/@DagHewardMillsvideos',
+    socialPlatform: 'YouTube',
+  },
+  {
+    id: 'min-11',
+    name: 'Pastor Joel Osteen',
+    title: 'Senior Pastor',
+    churchName: 'Lakewood Church',
+    city: 'Houston, Texas',
+    country: 'United States',
+    imageUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80',
+    socialUrl: 'https://www.youtube.com/@joelosteen',
+    socialPlatform: 'YouTube',
+  }
+];
